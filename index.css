@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    padding:20px;
+    background-color: #485461;
+}
+@font-face {
+    font-family: rock;
+    src: url(./rock-it/Rockit.ttf);
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+    /*background-color: rgb(206, 201, 201);*/
+    font-size: 30px;
+    color:white;
+    font-family:"rock";
+    text-align: center;
+}
+.search{
+
+    width: 70%;
+    height:48px;
+    background-color: red;
+    margin-left: 16%;
+    font-size: 0px;
+
+}
+.search-field{
+
+    width: 90%;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: segoe UI;
+    text-indent: 30px;
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+.search-btn{
+    border: none;
+    width: 10%;
+    height: 48px;
+    background-color: white;
+
+}
+
+.search-icon{
+    width: 30%;
+}
+.songs{
+    width: 100%;
+    height: auto;
+    /*background-color: red;*/
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    
+}
+.song{
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.song-img{
+    width: 90%;
+    height: 250px;
+    background-color: brown;
+    margin:auto;
+   
+    overflow: hidden;
+    
+    
+}
+.song-player{
+    width: 90%;
+    height:100px;
+   /* background-color: yellow;*/
+    margin-top:30px;
+    margin-left: 15px; 
+    font-weight: 250px;
+  
+    
+
+}
+.song-thumbnail{
+   width: 300px;
+   height: 300px;
+   
+
+}
+.song-thumbnail:hover{
+    transform: scale(1,2);
+
+}
+.song-audio{
+    width: 260px;
+    margin-top: 20px;
+}
